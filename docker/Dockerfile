@@ -10,5 +10,5 @@ EXPOSE 443/tcp
 ARG TZ=UTC
 ARG VERSION
 
-COPY docker/rootfs /
+COPY ./rootfs /
 RUN /docker.build
